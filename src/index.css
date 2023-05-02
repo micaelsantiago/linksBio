@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.link {
+		width: 80vw;
+		max-width: 450px;
+		transition: all 0.4s ease-in-out;
+	}
+}
